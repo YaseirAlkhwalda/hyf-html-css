@@ -71,33 +71,71 @@ body {
 
 /* Start Personal Info */
 
-.personal {background-color: #F2F2F2;overflow: hidden;}
+.personal {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
 
-.personal .image {float: left;width: 40%;}
+.personal .image {
+    float: left;
+    width: 40%;
+}
 
-.personal .image img {width: 100%;}
+.personal .image img {
+    width: 100%;
+}
 
-.personal .info {float: left;width: 60%;}
+.personal .info {
+    float: left;
+    width: 60%;
+}
 
-.personal .info h2 {margin:  25px 0  20px 40px;color: #555;}
+.personal .info h2 {
+    margin: 25px 0  20px 40px;
+    color: #555;
+}
 
-.personal .info > p {margin: 0 0 10px 40px;}
+.personal .info > p {
+    margin: 0 0 10px 40px;
+}
 
-.personal .info > p:last-of-type {margin-top: 25px }
+.personal .info > p:last-of-type {
+    margin-top: 25px; 
+}
 
-.personal .info  p {line-height: 1.6;color: #666; }
+.personal .info  p {
+    line-height: 1.6;
+    color: #666; 
+}
 
-.personal  .info  .life {margin: 15px 0 0 40px;}
+.personal  .info  .life {
+    margin: 15px 0 0 40px;
+}
 
-.personal .info .life .content {float: left;width: 50%; }
+.personal .info .life .content {
+    float: left;
+    width: 50%; 
+}
 
-.personal  .info  .life .content .icon {float: left;width: 12%;margin-right: 5%;}
+.personal  .info  .life .content .icon {
+    float: left;
+    width: 12%;
+    margin-right: 5%;
+}
 
-.personal  .info  .life .content .icon img {max-width: 100%;margin: 30px 10px 0 0;}
+.personal  .info  .life .content .icon img {
+    max-width: 100%;
+    margin: 30px 10px 0 0;
+}
 
-.personal  .info  .life .content .text p {margin-top: 0;}
+.personal  .info  .life .content .text p {
+    margin-top: 0;
+}
 
-.personal  .info  .life .content .text h3 {margin-bottom: 5px;color: #555;}
+.personal  .info  .life .content .text h3 {
+    margin-bottom: 5px;
+    color: #555;
+}
 
 /* End Personal Info */
 
