@@ -1,10 +1,12 @@
 /* Start main Rules */
-
+body {
+    margin: auto;
+}
 .container {
        width: 1170px;
        margin: auto;
 }
- 
+
 .clearfix  {
     clear: both;
 }
@@ -21,10 +23,7 @@
 
 .navbar h2 {
     float: left;
-}
-
-.navbar h2 span {
-    color: #00CF71;
+    font-size: 28px;
 }
 
 .navbar ul {
@@ -33,8 +32,9 @@
 }
 
 .navbar ul li {
+    font-size: 16px;
     float: left;
-    padding: 10px;
+    padding: 14px;
 }
 
 .navbar ul li a {
@@ -43,7 +43,8 @@
 }
 
 .navbar ul li.active a,
-.navbar ul li a:hover {
+.navbar ul li a:hover,
+.navbar h2 span {
     color: #00CF71;
 }
 
@@ -156,96 +157,54 @@
 /* End My Skills */
 
 
-/* Start My Education */
+/* Start Education And Work */
 
-.my-education {
-    background-color: #F2F2F2;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    overflow: hidden;
-}
-
-.my-education  h2 {
-    font-size: 30px;
-    margin:  0 0  0 40px;
-    color: #555;
-}
-
-.my-education .main {
-    width: 45%;
-    margin-right: 5%;
-    float: left;
-}
-
-.my-education  h3 {
-    margin-top: 60px;
-    margin-bottom: 8px;
-    color: #333;
-}
-
-.my-education  p {
-    line-height: 1.7;
-    color: #555;
-}
-
-.my-education  span  {
-    display: block;
-    margin-bottom: 10px;
-    color: #444;
-}
-
-.my-education  span:last-of-type {
-    background-color: #2DCC70;
-    color: #FFF;
-    display: inline-block;
-    padding: 4px 10px;
-}
-
-.my-education  .exp {
-    width: 45%;
-    float: left;
-}
-
-
-/* End My Education */
-
-/* Start Work Experience */
-
+.my-education,
 .work {
     padding-top: 30px;
     padding-bottom: 30px;
     overflow: hidden;
 }
 
+.my-education  {
+    background-color: #F2F2F2;
+}
+
+.my-education  h2,
 .work  h2 {
     font-size: 30px;
     margin:  0 0  0 40px;
     color: #555;
 }
 
+.my-education .main,
 .work .main {
     width: 45%;
     margin-right: 5%;
     float: left;
 }
 
+.my-education  h3,
 .work  h3 {
     margin-top: 60px;
     margin-bottom: 8px;
-    color: #444;
+    color: #333;
 }
 
+.my-education  p,
 .work  p {
     line-height: 1.7;
     color: #555;
 }
 
-.work  span {
+.my-education  span,
+.work  span  {
     display: block;
     margin-bottom: 10px;
-    color: #555;
+    color: #444;
 }
 
+.my-education  span:last-of-type,
 .work  span:last-of-type {
     background-color: #2DCC70;
     color: #FFF;
@@ -253,12 +212,9 @@
     padding: 4px 10px;
 }
 
-.work  .exp { 
-    width: 45%;
-    float: left;
-}
 
-/* End Work Experience */
+
+/* End Education And Work*/
 
 
 /* Start Footer */
