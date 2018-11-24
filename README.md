@@ -8,3 +8,7 @@ https://yaseiralkhwalda.github.io/hyf-html-css/Week0/
 My Homework Week1:
 
 https://yaseiralkhwalda.github.io/hyf-html-css/Week1/
+
+My Homework Week2:
+
+https://yaseiralkhwalda.github.io/hyf-html-css/Week2/
