@@ -245,14 +245,14 @@ body {
 /* End Last Section */
 
 /* Start Footer */
-#footer {
+footer {
     background-color:#01689b;
 }
-#footer .container:before,#footer .container:after {
+footer .container:before,#footer .container:after {
     content:" ";
     display:table;
 }
-#footer .container:after {
+footer .container:after {
     clear:both;
 }
 .payoff {
@@ -263,7 +263,7 @@ body {
     margin-right: 111px;
     font-size: 1.1em;
 }
-#footer .container .payoff span {
+footer .container .payoff span {
     display:block;
     padding-bottom:25px;
     color:#fff;
@@ -278,40 +278,40 @@ body {
     margin: 22px;
     padding: 20px;
  }
-#footer .container .column h2 {
+footer .container .column h2 {
     margin:8px 0 5px 0;
     padding-top:0;
     color:#fff;
     font-weight:normal;
     font-size:1.55em;
 }
-#footer .container .column ul {
+footer .container .column ul {
     margin:0;
     padding:0;
 }
-#footer .container .column ul li {
+footer .container .column ul li {
     list-style:none;
     padding: 5px;
 }
-#footer .container .column ul li a {
+footer .container .column ul li a {
     color:#fff;
     text-decoration:none;
 }
-#footer .container .column ul li a:hover {
+footer .container .column ul li a:hover {
     text-decoration:underline;
     color:#fff;
 }
-#footer .languages {
+footer .languages {
     background-color:#fff;
     padding:30px 15px;
 }
-#footer .languages  ul {
+footer .languages  ul {
     text-align:center;
 }
-#footer .languages  ul li {
+footer .languages  ul li {
     display:inline-block;
 }
-#footer .languages  ul li a {
+footer .languages  ul li a {
     padding:5px 10px 5px 10px;
     border:1px solid #b2d7ee;
     color:#007bc7;
