@@ -28,30 +28,30 @@ body {
 
 /* Start Navbar */
 
-.navbar {
+nav {
     background-color: #01689b;
     color: #FFF;
     overflow: hidden;
 }
 
-.navbar h2 {
+nav h2 {
     float: left;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.navbar ul {
+nav ul {
     list-style: none;
     float: right;
 }
 
-.navbar ul li {
+nav ul li {
     font-size: 20px;
     float: left;
     padding: 10px;
 }
 
-.navbar ul li a {
+nav ul li a {
     color: #FFF;
     text-decoration: none;
 }
